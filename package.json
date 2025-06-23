@@ -1,0 +1,20 @@
+{
+  "name": "devops-challenge-senior-theattic",
+  "version": "1.0.0",
+  "description": "SimpleTimeServiceApp",
+  "main": "SimpleTimeService.js",
+  "scripts": {
+    "test": "no",
+    "start": "node SimpleTimeService.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
