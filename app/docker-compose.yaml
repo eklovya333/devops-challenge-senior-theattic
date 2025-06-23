@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  webserver:
+    image: nginx-img5:latest
+    container_name: nginx
+    ports:
+      - "8080:8080"
+    networks:
+      - elastic
+  nodejs:
+    image: node-image1:latest
+    container_name: node-app
+    environment:
+      port: 3000
+    ports:
+      - "3000:3000"
+    networks:
+      - elastic
+
+networks:
+  elastic:
+    driver: bridge
