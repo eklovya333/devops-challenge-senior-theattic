@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: eklovya333/nginx-image:latest
+          image: eklovya333/nginx-image3:latest
           ports:
-            - containerPort: 80
+            - containerPort: 8080

@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: node-app
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
-    app: nodejs-app
+    app: node-app
   ports:
     - port: 80
       targetPort: 3000

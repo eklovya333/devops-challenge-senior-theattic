@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+spec:
+  containers:
+  - name: debug
+    image: busybox:1.35
+    command: ["nslookup", "node-app"]
+  restartPolicy: Never
