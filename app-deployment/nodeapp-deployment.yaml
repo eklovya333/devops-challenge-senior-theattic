@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs-container
-          image: eklovya333/node-image:latest
+          image: eklovya333/nginx-image3:latest
           command: ["sh", "-c", "npm run start"]
           ports:
             - containerPort: 3000

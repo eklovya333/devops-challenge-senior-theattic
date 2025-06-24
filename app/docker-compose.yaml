@@ -2,12 +2,12 @@ version: '3.8'
 
 services:
   webserver:
-    image: nginx-img5:latest
+    image: eklovya333/nginx-image3:latest
     container_name: nginx
     ports:
       - "8080:8080"
     networks:
-      - elastic
+      - webapp
   nodejs:
     image: node-image1:latest
     container_name: node-app
@@ -16,8 +16,8 @@ services:
     ports:
       - "3000:3000"
     networks:
-      - elastic
+      - webapp
 
 networks:
-  elastic:
+  webapp:
     driver: bridge
