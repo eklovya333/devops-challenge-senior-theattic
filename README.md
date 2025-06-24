@@ -1,5 +1,5 @@
-Minimalist Application with Docker, NGINX, and GKE (Terraform)
-📌 Overview
+**Minimalist Application with Docker, NGINX, and GKE (Terraform)**
+**📌 Overview**
 This repository demonstrates the complete lifecycle of a minimalist Node.js application — from local Docker development to cloud deployment on Google Kubernetes Engine (GKE) using Terraform.
 It includes:
 1.A containerized Node.js time service (SimpleTimeServiceApp)
